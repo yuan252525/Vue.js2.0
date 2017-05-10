@@ -1,0 +1,128 @@
+body {
+    font: normal 1em/1.25em 'microsoft Yahei',Verdana,Arial,Helvetica,sans-serif;
+    -webkit-text-size-adjust: none;
+    background: #fff;
+    color: #2c3e50;
+}
+.active-link{
+	color:$primaryColor!important;
+}
+
+
+//表单
+.el-button--primary{
+	background-color: $primaryColor!important;
+    border-color: $primaryColor!important;	
+}
+.el-input__inner:focus{
+	border-color: $primaryColor!important;	
+}
+.el-form-item.is-error .el-input__inner, .el-form-item.is-error .el-textarea__inner {
+    border-color: $errorColor!important;
+    box-shadow: 0 0 10px $errorShadowColor;
+}
+.el-form-item.is-required .el-form-item__label:before{
+	display:none!important
+}
+.el-form{
+	text-align:center;
+	.label{
+	 font-weight:bold;
+	}
+} 
+
+.el-upload,.el-upload-list--picture-card .el-upload-list__item{
+	width: 80px!important;
+    height: 80px!important;
+}
+.el-upload{
+	line-height: 80px!important;
+}
+
+
+//弹窗
+.el-message-box{
+	width: 90%!important;
+}
+.el-message-box__header {
+    padding: 10px 20px 0!important;
+}
+.el-message-box__content {
+    padding: 20px!important;
+}
+.el-message-box__btns {
+    padding: 0px 20px 10px!important;
+}
+
+.el-message-box__close{
+	top:11px!important;
+}
+
+.pull-left{
+	float:left;
+}
+.pull-right{
+	float:right;
+}
+.primaryColor{
+	color:$primaryColor
+}
+.text-align{
+	text-align:center;
+}
+#app,html,body{
+	height:100%
+}
+#content{
+	padding-top: 40px;
+    height: calc(100% - 92px);
+    overflow: hidden;
+}
+#content .container{
+	height:100%;
+	overflow:scroll;
+}
+
+//tab标签页
+.el-tabs__nav{
+	width:100%;
+	text-align:center;
+}
+.el-tabs__item{
+	width:50%;
+}
+.el-tabs{
+	height:100%;
+}
+.el-tabs__header{
+	background:#fff;
+	margin:0!important;
+}
+.el-tabs__active-bar{
+	width: 60px!important;
+    left: 25%!important;
+    margin-left: -30px!important;
+    background-color:$primaryColor!important;
+}
+.el-tabs__item.is-active{
+	color:$primaryColor!important;
+}
+.el-tabs__content {
+	height: calc(100% - 202px);
+    overflow-y: scroll!important;
+    padding: 10px 10px 0;
+}
+.el-card__body{
+	padding:0px!important;
+	.text.item{
+		padding:10px;
+		margin-bottom:15px;
+		border: 1px solid #d1dbe5;
+    	border-radius: 4px;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.12),0 0 6px 0 rgba(0,0,0,.04);
+	}
+}
+.el-card {
+    border: none!important; 
+    box-shadow: none!important; 
+}
